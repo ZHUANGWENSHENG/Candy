@@ -1,0 +1,4 @@
+platform :ios,'8.0'
+target 'Candy' do
+pod 'BmobSDK', '~> 2.2.8'
+end
