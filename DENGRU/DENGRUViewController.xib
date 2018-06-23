@@ -23,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BACKGROUND" translatesAutoresizingMaskIntoConstraints="NO" id="BvM-Oc-nVB">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="864"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <textField opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="center" minimumFontSize="17" background="BUTTONBLUE" translatesAutoresizingMaskIntoConstraints="NO" id="fra-L2-Wqj">
@@ -81,15 +81,15 @@
                 <constraint firstItem="fra-L2-Wqj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-536" id="69b-Eo-Rzh"/>
                 <constraint firstItem="2i3-P3-ywp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CzI-mn-7a5"/>
                 <constraint firstItem="EzX-kk-lkZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DcZ-PS-9oP"/>
+                <constraint firstItem="MFv-lI-VD9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ft0-vh-xHg"/>
                 <constraint firstItem="EzX-kk-lkZ" firstAttribute="top" secondItem="2i3-P3-ywp" secondAttribute="bottom" constant="20" id="OW7-Mj-60Y"/>
                 <constraint firstItem="MFv-lI-VD9" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="36" id="QTQ-eJ-pe5"/>
                 <constraint firstItem="6Sw-jm-uLw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="W1a-mf-2G2"/>
-                <constraint firstItem="MFv-lI-VD9" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="113" id="bnO-fX-BJa"/>
                 <constraint firstItem="2i3-P3-ywp" firstAttribute="top" secondItem="fra-L2-Wqj" secondAttribute="bottom" constant="11" id="dQm-vL-Xi6"/>
                 <constraint firstItem="fra-L2-Wqj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iuh-mF-ekf"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <point key="canvasLocation" x="26" y="52"/>
+            <point key="canvasLocation" x="25.5" y="52"/>
         </view>
     </objects>
     <resources>

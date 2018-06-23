@@ -1,14 +1,13 @@
 //
-//  MainViewController.m
-//  YSHYSlideController
 //
-//  Created by 杨淑园 on 15/10/29.
-//  Copyright © 2015年 yangshuyaun. All rights reserved.
+//  Candy
+//
+//  Created by QUAQUA on 2018/4/21.
+//  Copyright © 2018年 JING. All rights reserved.
 //
 
 #import "YSHYSlideViewController.h"
 #import "DENGRUViewController.h"
-//#import "LeftMenuController.h"
 #import "mainView.h"
 #import "ZUST.h"
 #import "searchViewTableViewController.h"
@@ -17,6 +16,8 @@
 #import"sent.h"
 #import "PrintStore.h"
 #import "search.h"
+#import "xianzhiViewController.h"
+
 static YSHYSlideViewController *signletonInstance;
 
 @interface YSHYSlideViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -115,7 +116,9 @@ static YSHYSlideViewController *signletonInstance;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
       [tableView deselectRowAtIndexPath:indexPath animated:NO];
+     [self presentViewController:[[xianzhiViewController alloc]init] animated:YES completion:nil];
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

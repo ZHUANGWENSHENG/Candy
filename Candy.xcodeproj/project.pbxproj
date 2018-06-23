@@ -141,7 +141,6 @@
 		DB28C3F220D8165100A74B1E /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
 		DB28C3F320D8165100A74B1E /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 		DB28C3F420D8165100A74B1E /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
-		DB3EBAFF2062865D00654E02 /* ViewController0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController0.h; sourceTree = "<group>"; };
 		DB3EBB0E20629BA300654E02 /* searchViewTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchViewTableViewController.h; sourceTree = "<group>"; };
 		DB3EBB0F20629BA300654E02 /* searchViewTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = searchViewTableViewController.m; sourceTree = "<group>"; };
 		DB3EBB1020629BA300654E02 /* searchViewTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchViewTableViewController.xib; sourceTree = "<group>"; };
@@ -245,9 +244,15 @@
 				DB9C587720A736C20048AD3D /* IdcardQuality.framework */,
 				DB84D7CB208F611700796B4E /* ReservationOrder */,
 				DBD478C82065454300A229F1 /* Assets.xcassets */,
-				DBFB174320ADC118005720A1 /* file.h */,
+				DB7A87BB205AA98B00ABDFF0 /* YSHYSlideViewController */,
+				AE600F01205FEEC3005A3308 /* DENGRU */,
+				AE600EFD205FEEC3005A3308 /* ZHUCE */,
+				DBD478B52064D73B00A229F1 /* SuccOrder */,
+				DBD478B12064D73100A229F1 /* personDesign */,
+				3FBA2F352057F562006F5416 /* Candy */,
 				DB28C3EE20D8165100A74B1E /* xiaoxi */,
 				DBFB174520ADC118005720A1 /* file.m */,
+				DBFB174320ADC118005720A1 /* file.h */,
 				DBFB174720ADC119005720A1 /* file.xib */,
 				DBFB174620ADC119005720A1 /* TableViewCell.h */,
 				DBFB174820ADC119005720A1 /* TableViewCell.m */,
@@ -258,8 +263,6 @@
 				DBD478BC2064ECBD00A229F1 /* photography.h */,
 				DBD478BD2064ECBD00A229F1 /* photography.m */,
 				DBD478BE2064ECBD00A229F1 /* photography.xib */,
-				DBD478B52064D73B00A229F1 /* SuccOrder */,
-				DBD478B12064D73100A229F1 /* personDesign */,
 				DB71F1C12063F8B000001EB4 /* sent.h */,
 				DB71F1C22063F8B000001EB4 /* sent.m */,
 				DB71F1C32063F8B000001EB4 /* sent.xib */,
@@ -272,8 +275,6 @@
 				DB3EBB0E20629BA300654E02 /* searchViewTableViewController.h */,
 				DB3EBB0F20629BA300654E02 /* searchViewTableViewController.m */,
 				DB3EBB1020629BA300654E02 /* searchViewTableViewController.xib */,
-				AE600F01205FEEC3005A3308 /* DENGRU */,
-				AE600EFD205FEEC3005A3308 /* ZHUCE */,
 				AE600EF8205FD78C005A3308 /* ZUST.h */,
 				AE600EF9205FD78C005A3308 /* ZUST.m */,
 				AE600EFA205FD78C005A3308 /* ZUST.xib */,
@@ -283,8 +284,6 @@
 				DB6D3E86205EC3820070D9CF /* Design.h */,
 				DB6D3E87205EC3820070D9CF /* Design.m */,
 				DB6D3E88205EC3820070D9CF /* Design.xib */,
-				DB3EBAFF2062865D00654E02 /* ViewController0.h */,
-				3FBA2F352057F562006F5416 /* Candy */,
 				3FBA2F4E2057F562006F5416 /* CandyTests */,
 				3FBA2F592057F562006F5416 /* CandyUITests */,
 				1B2D4B458D42F2BBB7995A59 /* Pods */,
@@ -308,7 +307,6 @@
 			children = (
 				AEECF31B205BF94900C4E273 /* FIRST.h */,
 				AEECF31A205BF94800C4E273 /* FIRST.m */,
-				DB7A87BB205AA98B00ABDFF0 /* YSHYSlideViewController */,
 				3FBA2F362057F562006F5416 /* AppDelegate.h */,
 				3FBA2F372057F562006F5416 /* AppDelegate.m */,
 				3FBA2F9F20580143006F5416 /* mainView.h */,
@@ -383,8 +381,7 @@
 				DB7A87D2205AA98B00ABDFF0 /* YSHYSlideViewController.h */,
 				DB7A87D3205AA98B00ABDFF0 /* YSHYSlideViewController.m */,
 			);
-			name = YSHYSlideViewController;
-			path = Candy.xcodeproj/YSHYSlideViewController;
+			path = YSHYSlideViewController;
 			sourceTree = SOURCE_ROOT;
 		};
 		DB84D7CB208F611700796B4E /* ReservationOrder */ = {

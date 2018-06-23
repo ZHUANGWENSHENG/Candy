@@ -1,9 +1,9 @@
 //
-//  MainViewController.h
-//  YSHYSlideController
+//  
+//  Candy
 //
-//  Created by 杨淑园 on 15/10/29.
-//  Copyright © 2015年 yangshuyaun. All rights reserved.
+//  Created by QUAQUA on 2018/4/21.
+//  Copyright © 2018年 JING. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

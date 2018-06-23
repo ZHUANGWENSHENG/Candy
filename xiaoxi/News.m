@@ -39,7 +39,7 @@
 
   arr1=[[NSMutableArray alloc]initWithObjects:@"aaa",@"ccc",@"ddd",@"eee",@"fff", nil];
     arr2=[[NSMutableArray alloc]initWithObjects:@"ccc",@"ddd",@"aaa",@"ddd",@"sss", nil];
-    image=[[NSMutableArray alloc]initWithObjects:@"pp",@"mao.JPG",@"banner",@"pp",@"mao.JPG", nil];
+    image=[[NSMutableArray alloc]initWithObjects:@"Gallery - Image - 1",@"Gallery - Image - 2",@"Gallery - Image - 2",@"Gallery - Image - 1",@"Gallery - Image - 2", nil];
 
     
     [self.tableView registerNib:[UINib nibWithNibName:@"NewsCell" bundle:nil] forCellReuseIdentifier:@"News"];
