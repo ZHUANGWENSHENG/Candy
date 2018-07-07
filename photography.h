@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface photography : UITableViewController
-
+//@property (nonatomic, copy) NSString *title2;
 @end

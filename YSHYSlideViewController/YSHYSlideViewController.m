@@ -52,7 +52,7 @@ static YSHYSlideViewController *signletonInstance;
     [super viewWillAppear:animated];
     [[YSHYSlideViewController shareInstance] addGesture];
     
-    
+    storeView.hidden=YES;
     
 }
 -(void)firstJiaFrame{
@@ -196,7 +196,7 @@ static YSHYSlideViewController *signletonInstance;
     [_jia addTarget:self action:@selector(qqq) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:_jia];
     [self appearTable];
-    storeView.hidden=YES;
+    
 }
 -(void)qqq{
 

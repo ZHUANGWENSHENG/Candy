@@ -108,17 +108,17 @@
 		11B3E8EC6C056AD891ED5B90 /* Pods-Candy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.release.xcconfig"; sourceTree = "<group>"; };
 		1857B21D0FE2C714843D21AE /* libPods-Candy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Candy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19979EA6B76D25CF1E6171AE /* Pods-Candy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Candy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Candy/Pods-Candy.debug.xcconfig"; sourceTree = "<group>"; };
-		3FBA2F332057F562006F5416 /* Candy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Candy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA2F332057F562006F5416 /* PrintAndDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintAndDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA2F362057F562006F5416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FBA2F372057F562006F5416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; tabWidth = 5; };
 		3FBA2F3D2057F562006F5416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBA2F422057F562006F5416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBA2F442057F562006F5416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBA2F452057F562006F5416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FBA2F4B2057F562006F5416 /* CandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA2F4B2057F562006F5416 /* PrintAndDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintAndDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA2F4F2057F562006F5416 /* CandyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyTests.m; sourceTree = "<group>"; };
 		3FBA2F512057F562006F5416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBA2F562057F562006F5416 /* CandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA2F562057F562006F5416 /* PrintAndDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintAndDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA2F5A2057F562006F5416 /* CandyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandyUITests.m; sourceTree = "<group>"; };
 		3FBA2F5C2057F562006F5416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBA2F9F20580143006F5416 /* mainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
@@ -294,9 +294,9 @@
 		3FBA2F342057F562006F5416 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FBA2F332057F562006F5416 /* Candy.app */,
-				3FBA2F4B2057F562006F5416 /* CandyTests.xctest */,
-				3FBA2F562057F562006F5416 /* CandyUITests.xctest */,
+				3FBA2F332057F562006F5416 /* PrintAndDesign.app */,
+				3FBA2F4B2057F562006F5416 /* PrintAndDesignTests.xctest */,
+				3FBA2F562057F562006F5416 /* PrintAndDesignUITests.xctest */,
 			);
 			name = Products;
 			path = ..;
@@ -429,9 +429,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FBA2F322057F562006F5416 /* Candy */ = {
+		3FBA2F322057F562006F5416 /* PrintAndDesign */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FBA2F5F2057F562006F5416 /* Build configuration list for PBXNativeTarget "Candy" */;
+			buildConfigurationList = 3FBA2F5F2057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesign" */;
 			buildPhases = (
 				61E881A8B76CA47B259FBF17 /* [CP] Check Pods Manifest.lock */,
 				3FBA2F2F2057F562006F5416 /* Sources */,
@@ -445,14 +445,14 @@
 			);
 			dependencies = (
 			);
-			name = Candy;
+			name = PrintAndDesign;
 			productName = Candy;
-			productReference = 3FBA2F332057F562006F5416 /* Candy.app */;
+			productReference = 3FBA2F332057F562006F5416 /* PrintAndDesign.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FBA2F4A2057F562006F5416 /* CandyTests */ = {
+		3FBA2F4A2057F562006F5416 /* PrintAndDesignTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FBA2F622057F562006F5416 /* Build configuration list for PBXNativeTarget "CandyTests" */;
+			buildConfigurationList = 3FBA2F622057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesignTests" */;
 			buildPhases = (
 				3FBA2F472057F562006F5416 /* Sources */,
 				3FBA2F482057F562006F5416 /* Frameworks */,
@@ -463,14 +463,14 @@
 			dependencies = (
 				3FBA2F4D2057F562006F5416 /* PBXTargetDependency */,
 			);
-			name = CandyTests;
+			name = PrintAndDesignTests;
 			productName = CandyTests;
-			productReference = 3FBA2F4B2057F562006F5416 /* CandyTests.xctest */;
+			productReference = 3FBA2F4B2057F562006F5416 /* PrintAndDesignTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3FBA2F552057F562006F5416 /* CandyUITests */ = {
+		3FBA2F552057F562006F5416 /* PrintAndDesignUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FBA2F652057F562006F5416 /* Build configuration list for PBXNativeTarget "CandyUITests" */;
+			buildConfigurationList = 3FBA2F652057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesignUITests" */;
 			buildPhases = (
 				3FBA2F522057F562006F5416 /* Sources */,
 				3FBA2F532057F562006F5416 /* Frameworks */,
@@ -481,9 +481,9 @@
 			dependencies = (
 				3FBA2F582057F562006F5416 /* PBXTargetDependency */,
 			);
-			name = CandyUITests;
+			name = PrintAndDesignUITests;
 			productName = CandyUITests;
-			productReference = 3FBA2F562057F562006F5416 /* CandyUITests.xctest */;
+			productReference = 3FBA2F562057F562006F5416 /* PrintAndDesignUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -516,7 +516,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FBA2F2E2057F562006F5416 /* Build configuration list for PBXProject "Candy" */;
+			buildConfigurationList = 3FBA2F2E2057F562006F5416 /* Build configuration list for PBXProject "PrintAndDesign" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -529,9 +529,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FBA2F322057F562006F5416 /* Candy */,
-				3FBA2F4A2057F562006F5416 /* CandyTests */,
-				3FBA2F552057F562006F5416 /* CandyUITests */,
+				3FBA2F322057F562006F5416 /* PrintAndDesign */,
+				3FBA2F4A2057F562006F5416 /* PrintAndDesignTests */,
+				3FBA2F552057F562006F5416 /* PrintAndDesignUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -690,12 +690,12 @@
 /* Begin PBXTargetDependency section */
 		3FBA2F4D2057F562006F5416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FBA2F322057F562006F5416 /* Candy */;
+			target = 3FBA2F322057F562006F5416 /* PrintAndDesign */;
 			targetProxy = 3FBA2F4C2057F562006F5416 /* PBXContainerItemProxy */;
 		};
 		3FBA2F582057F562006F5416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FBA2F322057F562006F5416 /* Candy */;
+			target = 3FBA2F322057F562006F5416 /* PrintAndDesign */;
 			targetProxy = 3FBA2F572057F562006F5416 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -879,7 +879,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Candy.app/Candy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintAndDesign.app/PrintAndDesign";
 			};
 			name = Debug;
 		};
@@ -894,7 +894,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Candy.app/Candy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrintAndDesign.app/PrintAndDesign";
 			};
 			name = Release;
 		};
@@ -929,7 +929,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FBA2F2E2057F562006F5416 /* Build configuration list for PBXProject "Candy" */ = {
+		3FBA2F2E2057F562006F5416 /* Build configuration list for PBXProject "PrintAndDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FBA2F5D2057F562006F5416 /* Debug */,
@@ -938,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FBA2F5F2057F562006F5416 /* Build configuration list for PBXNativeTarget "Candy" */ = {
+		3FBA2F5F2057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FBA2F602057F562006F5416 /* Debug */,
@@ -947,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FBA2F622057F562006F5416 /* Build configuration list for PBXNativeTarget "CandyTests" */ = {
+		3FBA2F622057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesignTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FBA2F632057F562006F5416 /* Debug */,
@@ -956,7 +956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FBA2F652057F562006F5416 /* Build configuration list for PBXNativeTarget "CandyUITests" */ = {
+		3FBA2F652057F562006F5416 /* Build configuration list for PBXNativeTarget "PrintAndDesignUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FBA2F662057F562006F5416 /* Debug */,

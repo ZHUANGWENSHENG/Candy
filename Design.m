@@ -33,7 +33,9 @@
     // Do any additional setup after loading the view from its nib.
 }
 -(void)ChargeEye{
-    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:[photography new]];
+    photography *next=[photography new];
+    next.title=self.p1.text;
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:next];
     [self presentViewController:nav animated:YES completion:nil];
 }
 -(void)viewWillAppear:(BOOL)animated

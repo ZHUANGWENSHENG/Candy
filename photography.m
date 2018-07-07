@@ -26,7 +26,7 @@
       self.navigationController.navigationBar.barTintColor=[UIColor whiteColor];
     [self.tableView registerNib:[UINib nibWithNibName:@"photo" bundle:nil] forCellReuseIdentifier:@"photo"];
     self.tableView.rowHeight=425;
-    self.title=@"摄影";
+
   
     arr1=[[NSMutableArray alloc]initWithObjects:@"奥黛丽.赫本",@"真理与反思",@"石原里美", nil];
     arr2=[[NSMutableArray alloc]initWithObjects:@"奥黛丽.赫本",@"zhen",@"奥黛丽.赫本", nil];

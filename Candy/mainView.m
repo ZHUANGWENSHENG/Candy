@@ -122,6 +122,23 @@ MKMapView* _mapView;
     MKMapCamera* camera = [MKMapCamera cameraLookingAtCenterCoordinate:to
                                                      fromEyeCoordinate:from eyeAltitude:70];
     _mapView.camera = camera;
+//    // 创建MKPointAnnotation对象——代表一个锚点
+//    MKPointAnnotation  *annotation = [[MKPointAnnotation alloc] init];
+//    annotation.title =@"haha";
+//    annotation.subtitle = @"haha";
+//     CLLocationCoordinate2D too={jin.floatValue+0.001 , wei.floatValue+0.001};
+//    annotation.coordinate = too;
+//    // 添加锚点
+//    [_mapView addAnnotation:annotation];
+//
+    // 创建MKPointAnnotation对象——代表一个锚点
+    MKPointAnnotation* annotation = [[MKPointAnnotation alloc] init];
+    annotation.title = @"haha";
+    annotation.subtitle = @"haha";
+    CLLocationCoordinate2D coordinate = {jin.floatValue+0.001 , wei.floatValue+0.001};
+    annotation.coordinate = coordinate;
+    // 添加锚点
+    [_mapView addAnnotation:annotation];
 }
 - (void)locatemap{
     

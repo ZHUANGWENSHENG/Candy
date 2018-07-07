@@ -12,6 +12,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
+    _dianji.hidden=YES;
     // Initialization code
 }
 

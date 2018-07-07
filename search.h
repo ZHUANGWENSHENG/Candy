@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface search : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *dianji;
 @property (weak, nonatomic) IBOutlet UILabel *name;
 
 @end
