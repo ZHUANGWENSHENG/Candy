@@ -90,8 +90,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ha" forIndexPath:indexPath];
     cell.qq.text=arr[indexPath.row];
-    // Configure the cell...
-    
+
     return cell;
 }
 

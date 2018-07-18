@@ -14,7 +14,6 @@
 #import "Design.h"
 #import "SuccOderViewController.h"
 #import"sent.h"
-#import "PrintStore.h"
 #import "search.h"
 #import "xianzhiViewController.h"
 
@@ -139,7 +138,6 @@ static YSHYSlideViewController *signletonInstance;
     re.frame=CGRectMake([UIScreen mainScreen].bounds.size.width/2-70, 30, 80, 50);
 
     [self.view addSubview:re];
-
     [self.view addSubview:btn1];
 
    
@@ -147,8 +145,7 @@ static YSHYSlideViewController *signletonInstance;
     btn2=[[UIButton alloc]initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2, 40, 61, 20)];
     UILabel *sheji=[[UILabel alloc]init];
     
-    sheji.text=@"印刷";
-    //[dayin setFont:[UIFont systemFontOfSize:10]];
+    sheji.text=@"设计";
     [btn2 setTitle:sheji.text forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     btn2.titleLabel.font=[UIFont systemFontOfSize:15];

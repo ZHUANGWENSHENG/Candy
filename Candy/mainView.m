@@ -10,7 +10,6 @@
 #import "mainView.h"
 #import "YSHYSlideViewController.h"
 #import "searchViewTableViewController.h"
-#import "PrintStore.h"
 #import "search.h"
 
 #define LABEL_WIDTH 50

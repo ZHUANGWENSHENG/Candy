@@ -1,4 +1,20 @@
-platform :ios,'8.0'
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
 target 'Candy' do
-pod 'BmobSDK', '~> 2.2.8'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Candy
+
+  target 'CandyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CandyUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+pod 'BmobSDK', '~> 2.3.1'
 end
